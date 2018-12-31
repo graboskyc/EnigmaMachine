@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="Enigma.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Enigma"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Brown">
+
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Rotor 3" FontSize="80" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" Text="Rotor 2" FontSize="80" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="8" Grid.ColumnSpan="2" Text="Rotor 1" FontSize="80" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+        <TextBox Grid.Row="1" Grid.Column="0" Name="txt_rotor3_number" FontSize="80" Foreground="White" Text="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="txt_rotor3_value" FontSize="80" Foreground="White" Text="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="4" Name="txt_rotor2_number" FontSize="80" Foreground="White" Text="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="5" Name="txt_rotor2_value" FontSize="80" Foreground="White" Text="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="8" Name="txt_rotor1_number" FontSize="80" Foreground="White" Text="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="9" Name="txt_rotor1_value" FontSize="80" Foreground="White" Text="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+
+
+        <Ellipse Fill="Black" Grid.Column="0" Grid.Row="2" Name="circle_q"></Ellipse>
+        <TextBlock Text="Q" Foreground="White" FontSize="100"  Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_q"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="1" Grid.Row="2" Name="circle_w"></Ellipse>
+        <TextBlock Text="W" Foreground="White" FontSize="100"  Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_w"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="2" Grid.Row="2" Name="circle_e"></Ellipse>
+        <TextBlock Text="E" Foreground="White" FontSize="100"  Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_e"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="3" Grid.Row="2" Name="circle_r"></Ellipse>
+        <TextBlock Text="R" Foreground="White" FontSize="100"  Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_r"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="4" Grid.Row="2" Name="circle_t"></Ellipse>
+        <TextBlock Text="T" Foreground="White" FontSize="100"  Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_t"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="5" Grid.Row="2" Name="circle_y"></Ellipse>
+        <TextBlock Text="Y" Foreground="White" FontSize="100"  Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_y"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="6" Grid.Row="2" Name="circle_u"></Ellipse>
+        <TextBlock Text="U" Foreground="White" FontSize="100"  Grid.Column="6" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_u"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="7" Grid.Row="2" Name="circle_i"></Ellipse>
+        <TextBlock Text="I" Foreground="White" FontSize="100"  Grid.Column="7" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_i"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="8" Grid.Row="2" Name="circle_o"></Ellipse>
+        <TextBlock Text="O" Foreground="White" FontSize="100"  Grid.Column="8" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_o"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="9" Grid.Row="2" Name="circle_p"></Ellipse>
+        <TextBlock Text="P" Foreground="White" FontSize="100"  Grid.Column="9" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_p"></TextBlock>
+
+        <Ellipse Fill="Black" Grid.Column="1" Grid.Row="3" Name="circle_a"></Ellipse>
+        <TextBlock Text="A" Foreground="White" FontSize="100"  Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_a"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="2" Grid.Row="3" Name="circle_s"></Ellipse>
+        <TextBlock Text="S" Foreground="White" FontSize="100"  Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_s"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="3" Grid.Row="3" Name="circle_d"></Ellipse>
+        <TextBlock Text="D" Foreground="White" FontSize="100"  Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_d"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="4" Grid.Row="3" Name="circle_f"></Ellipse>
+        <TextBlock Text="F" Foreground="White" FontSize="100"  Grid.Column="4" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_f"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="5" Grid.Row="3" Name="circle_g"></Ellipse>
+        <TextBlock Text="G" Foreground="White" FontSize="100"  Grid.Column="5" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_g"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="6" Grid.Row="3" Name="circle_h"></Ellipse>
+        <TextBlock Text="H" Foreground="White" FontSize="100"  Grid.Column="6" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_h"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="7" Grid.Row="3" Name="circle_j"></Ellipse>
+        <TextBlock Text="J" Foreground="White" FontSize="100"  Grid.Column="7" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_j"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="8" Grid.Row="3" Name="circle_k"></Ellipse>
+        <TextBlock Text="K" Foreground="White" FontSize="100"  Grid.Column="8" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_k"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="9" Grid.Row="3" Name="circle_l"></Ellipse>
+        <TextBlock Text="L" Foreground="White" FontSize="100"  Grid.Column="9" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_l"></TextBlock>
+
+        <Ellipse Fill="Black" Grid.Column="2" Grid.Row="4" Name="circle_z"></Ellipse>
+        <TextBlock Text="Z" Foreground="White" FontSize="100"  Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_z"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="3" Grid.Row="4" Name="circle_x"></Ellipse>
+        <TextBlock Text="X" Foreground="White" FontSize="100"  Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_x"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="4" Grid.Row="4" Name="circle_c"></Ellipse>
+        <TextBlock Text="C" Foreground="White" FontSize="100"  Grid.Column="4" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_c"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="5" Grid.Row="4" Name="circle_v"></Ellipse>
+        <TextBlock Text="V" Foreground="White" FontSize="100"  Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_v"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="6" Grid.Row="4" Name="circle_b"></Ellipse>
+        <TextBlock Text="B" Foreground="White" FontSize="100"  Grid.Column="6" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_b"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="7" Grid.Row="4" Name="circle_n"></Ellipse>
+        <TextBlock Text="N" Foreground="White" FontSize="100"  Grid.Column="7" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_n"></TextBlock>
+        <Ellipse Fill="Black" Grid.Column="8" Grid.Row="4" Name="circle_m"></Ellipse>
+        <TextBlock Text="M" Foreground="White" FontSize="100"  Grid.Column="8" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Name="tb_m"></TextBlock>
+    </Grid>
+</Page>
